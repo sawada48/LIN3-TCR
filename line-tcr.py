@@ -1654,9 +1654,9 @@ def bot(op):
                 kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #-----------------------------------------------
             elif msg.text in ["Respon","respon"]:
-                ki.sendText(msg.to,"Cv1")
-                kk.sendText(msg.to,"Cv2")
-                kc.sendText(msg.to,"Cv3")
+                ki.sendText(msg.to,"Sawada")
+                kk.sendText(msg.to,"Hiyego")
+                kc.sendText(msg.to,"Yatoshi")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
