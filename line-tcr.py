@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Lala Bot
+helpMessage =""" Sawada Bot
 [Id︎]
 [Mid]
 [Me︎]
