@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Sawada Bot
+helpMessage =""" Lala Bot
 [Id︎]
 [Mid]
 [Me︎]
@@ -92,7 +92,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Sawada ",
+    "cName":"Lala ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -1645,7 +1645,7 @@ def bot(op):
                 kk.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
                 kc.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
             elif msg.text in ["#welcome"]:
-                ki.sendText(msg.to,"Selamat datang di Chivas Family Room")
+                ki.sendText(msg.to,"Selamat datang")
                 kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
@@ -1654,9 +1654,9 @@ def bot(op):
                 kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #-----------------------------------------------
             elif msg.text in ["Respon","respon"]:
-                ki.sendText(msg.to,"Sawada")
-                kk.sendText(msg.to,"Hiyego")
-                kc.sendText(msg.to,"Yatoshi")
+                ki.sendText(msg.to,"Dipsy")
+                kk.sendText(msg.to,"Lala")
+                kc.sendText(msg.to,"Pooo")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
