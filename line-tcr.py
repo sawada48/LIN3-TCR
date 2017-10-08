@@ -1464,8 +1464,8 @@ def bot(op):
                     for tag in wait["blacklist"]:
                         matched_list+=filter(lambda str: str == tag, gMembMids)
                     if matched_list == []:
-                        kk.sendText(msg.to,"Fuck You")
-                        kc.sendText(msg.to,"Fuck You")
+                        kk.sendText(msg.to,"not found")
+                        kc.sendText(msg.to,"not found")
                         return
                     for jj in matched_list:
                         try:
@@ -1484,7 +1484,7 @@ def bot(op):
                     gs = kc.getGroup(msg.to)
                     ki.sendText(msg.to,"Just some casual cleansing ô")
                     kk.sendText(msg.to,"Group cleansed.")
-                    kc.sendText(msg.to,"Fuck You All")
+                    kc.sendText(msg.to,"Sayonara")
                     targets = []
                     for g in gs.members:
                         if _name in g.displayName:
