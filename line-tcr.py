@@ -522,7 +522,6 @@ def bot(op):
                 h += "[🛫] %s\n" % (cl.getGroup(i).name +"→["+str(len(cl.getGroup(i).members))+"]")
                 cl.sendText(msg.to,"▒▒▓█[List Group]█▓▒▒\n"+ h +"Total Group =" +"["+str(len(gid))+"]")
             elif msg.text in ["Tagall"]:
-              if msg.from_ in admin or owner:
                 group = cl.getGroup(msg.to)
                 nama = [contact.mid for contact in group.members]
                 cb = ""
